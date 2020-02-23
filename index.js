@@ -27,10 +27,9 @@ function iLoveTheBeatles(num) {
 
   do {
 
-
      let result = "I love the Beatles!";
      resArray.push(result);
-     num++;
+     i++;
   }while (num <= i);
 
   return resArray;
