@@ -28,6 +28,7 @@ function iLoveTheBeatles(num) {
 
   do
  }
+     i = i + num;
      i++;
   }while (i < num);
 
