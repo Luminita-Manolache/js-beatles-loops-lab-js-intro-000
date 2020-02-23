@@ -21,14 +21,14 @@ function johnLennonFacts(facts) {
    return johnFacts;
 }
 
-function iLoveTheBeatles(15) {
+function iLoveTheBeatles(num) {
   var resArray = [];
   let i = 0;
-
+  num = 15;
   do {
     i++;
   }
-    while (i < 15) {
+    while (i < num) {
       resArray.push(i);
     }
     return resArray + "I love the Beatles!";
