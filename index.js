@@ -26,10 +26,11 @@ function iLoveTheBeatles(num) {
   var i = 0;
 
   do {
+    let val = num[i];
     i++;
   }
-    while (num[i] != num[i - 1]) {
-      var result = num[i] + "I love the Beatles!";
+    while (i < num.length) {
+      var result = val + "I love the Beatles!";
       resArray.push(result);
     }
   return resArray;
