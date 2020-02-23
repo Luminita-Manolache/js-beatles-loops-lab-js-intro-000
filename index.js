@@ -32,6 +32,7 @@ function iLoveTheBeatles(num) {
       var result = num[i] + "I love the Beatles!";
       resArray.push(result);
     }
+  }
   return resArray;
- }
+ 
 }
