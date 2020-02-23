@@ -28,8 +28,8 @@ function iLoveTheBeatles(num) {
 
   do
  }
-
-     resArray.push(i);
+     let result = num[i];
+     resArray.push(result);
      i++;
   }while (i < num);
 
