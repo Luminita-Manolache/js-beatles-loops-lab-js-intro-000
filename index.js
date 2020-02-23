@@ -34,5 +34,5 @@ function iLoveTheBeatles(num) {
       resArray.push(result);
       return resArray;
     }
-    
+
 }
