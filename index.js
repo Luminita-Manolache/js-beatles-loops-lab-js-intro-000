@@ -26,7 +26,7 @@ function iLoveTheBeatles(num) {
   let i = 0;
 
   do {
-    let result = num[i];
+    let result = num[15];
     i++;
   }
     while (i < num.length) {
