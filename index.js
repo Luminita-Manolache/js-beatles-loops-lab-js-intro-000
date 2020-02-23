@@ -29,7 +29,7 @@ function iLoveTheBeatles(num) {
   do {
      resArray.push("I love the Beatles!");
      i++;
-  }while (i <= num);
+  }while (i < num);
 
   return resArray;
 }
