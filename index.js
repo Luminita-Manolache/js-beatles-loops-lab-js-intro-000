@@ -20,3 +20,17 @@ function johnLennonFacts(facts) {
   }
    return johnFacts;
 }
+
+function iLoveTheBeatles(num) {
+  var resArray = [];
+  let i = 0;
+
+  do {
+    let val = num[i];
+    i++;
+  }
+    while (i < num.length) {
+      resArray.push(val);
+    } 
+    return resArray;
+}
