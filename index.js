@@ -31,6 +31,6 @@ function iLoveTheBeatles(num) {
   }
     while (i < num.length) {
       resArray.push(val);
-    } 
+    }
     return resArray;
 }
