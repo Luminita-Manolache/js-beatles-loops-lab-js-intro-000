@@ -31,7 +31,7 @@ function iLoveTheBeatles(num) {
      let result = "I love the Beatles!";
      resArray.push(result);
       num++;
-  }while (num <= num.length);
+  }while (num < num[i]);
 
   return resArray;
 }
