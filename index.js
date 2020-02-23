@@ -27,10 +27,10 @@ function iLoveTheBeatles(num) {
 
   do{
 
-     let result = "I love the Beatles!";
+     let result = "I love the Beatles!" + ',';
      resArray.push(result);
      i++;
-  }while (i <= num.length - 1);
+  }while (i < num.length);
 
   return resArray;
 }
