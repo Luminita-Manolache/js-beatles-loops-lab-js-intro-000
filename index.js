@@ -12,7 +12,7 @@ function johnLennonFacts(facts) {
   var johnFacts = [];
   let i = 0;
 
-  while(i < facts) {
+  while(i < facts[i]) {
 
       johnFacts.push(i);
       i++;
