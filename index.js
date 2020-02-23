@@ -27,10 +27,11 @@ function iLoveTheBeatles(num) {
   let i = 0;
 
   do {
+    let val = num[i];
     i++;
   }
     while (i < num.length) {
-      let result = num[i] + str;
+      let result = val + str;
       resArray.push(result);
       return resArray;
     }
