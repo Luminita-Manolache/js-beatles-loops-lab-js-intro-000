@@ -30,7 +30,7 @@ function iLoveTheBeatles(num) {
     i++;
   }
     while (i < num.length) {
-      resArray.push(val);
+      resArray.push(i);
     }
     return resArray;
 }
