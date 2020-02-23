@@ -27,7 +27,7 @@ function iLoveTheBeatles(num) {
 
   do {
       let result = num[i] + "I love the Beatles!";
-      
+
       i++;
   }while (i < num.length);
 
