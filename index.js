@@ -13,7 +13,7 @@ function johnLennonFacts(facts) {
   let i = 0;
   while(facts < i) {
 
-      i = i +johnFacts;
+      i = i + johnFacts;
       johnFacts++;
   }
    return i + "!!!";
