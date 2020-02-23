@@ -27,7 +27,7 @@ function iLoveTheBeatles(num) {
 
   do {
 
-     i = i + num;
+     i = i + num[i];
      let result = "I love the Beatles!";
      resArray.push(result);
      num++;
