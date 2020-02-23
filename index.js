@@ -12,10 +12,10 @@ function johnLennonFacts(facts) {
   var johnFacts = [];
   let i = 0;
 
-  while(i < facts[i]) {
+  while(i < facts) {
 
       johnFacts.push(i);
       i++;
   }
-   return johnFacts + "!!!";
+   return johnFacts[i] + "!!!";
 }
