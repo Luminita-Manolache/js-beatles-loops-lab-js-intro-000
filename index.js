@@ -34,5 +34,5 @@ function iLoveTheBeatles(num) {
       let result = val + str;
       resArray.push(result);
     }
-  return resArray; 
+  return resArray;
 }
