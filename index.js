@@ -25,7 +25,7 @@ function iLoveTheBeatles(num) {
   let str = "I love the Beatles!";
   let resArray = [];
   let i = 0;
-  
+
   do {
     i++;
   }
