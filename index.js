@@ -23,12 +23,12 @@ function johnLennonFacts(facts) {
 
 function iLoveTheBeatles(num) {
   var resArray = [];
-  let i = 1;
+  let i = 0;
 
   do {
     i++;
   }
-    while (i <= num.length) {
+    while (i < num.length) {
       let result = num[i] + "I love the Beatles!";
       resArray.push(result);
     }
